@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 // Get compiled asset
 function asset($file)
@@ -17,9 +17,10 @@ function asset($file)
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="Vault Innovation">
+    <link href="dist/hamburgers.css" rel="stylesheet">
     <link rel="shortcut icon" href="/favicon.ico">
     <title>Vault App</title>
-    
+
     <!-- Custom styles for this template -->
     <link href="/build/<?php echo asset('app.css'); ?>" rel="stylesheet">
 
@@ -36,7 +37,7 @@ function asset($file)
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
-            <button class="hamburger hamburger--spring navbar-toggle collapsed hide" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <button class="hamburger hamburger--spring is-active navbar-toggle collapsed hide" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="hamburger-box">
                   <span class="hamburger-inner"></span>
                 </span>
