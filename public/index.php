@@ -67,6 +67,8 @@ function asset($file)
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="/build/<?php echo asset('components.js'); ?>"></script>
 <script src="/build/<?php echo asset('app.js'); ?>"></script>
+<script type="text/javascript" src="../resources/assets/js/main.js">
 
+</script>
 </body>
 </html>
